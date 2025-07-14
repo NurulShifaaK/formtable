@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <section id="form">
+
+        <h1>User Form</h1>
+
+       <form id="userForm">
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number">
+            </div>
+
+          
+
+            <div>
+                <label for="gender">Education:</label>
+                <select id="gender" name="gender">
+                    <option value="Male">UG</option>
+                    <option value="Female">PG</option>Z
+                    <option value="Others">Fresher</option>Z
+                </select>
+            </div>
+
+            <div>
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+    
+
+            <div>
+                <label for="Education">Gender:</label>
+                <div>
+                    <input type="radio" id="pg" name="education" value="pg">
+                    <label for="pg">Male</label>
+                    <input type="radio" id="ug" name="education" value="ug">
+                    <label for="ug">Female</label>
+                </div>
+            </div>
+
+            <input type="submit" value="Submit" class="btn">
+        </form>
+
+    </section>
+
+    <br>
+
+    <section id="table">
+        <table border="1" id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Number</th>
+                    <th>Gender</th>
+                    <th>DOB</th>
+                   <th>Education</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
